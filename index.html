@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Энциклопедия Мифов Греции</title>
+    <title>Греческая Мифология: Полная Энциклопедия</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">ГРЕЦИЯ</div>
-        <ul class="nav-links">
-            <li><a href="#" class="nav-item active" data-target="home">Главная</a></li>
-            <li><a href="#" class="nav-item" data-target="gods">Боги Олимпа</a></li>
-            <li><a href="#" class="nav-item" data-target="heroes">Герои</a></li>
-            <li><a href="#" class="nav-item" data-target="monsters">Существа</a></li>
-        </ul>
-    </nav>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <h2 class="logo">Греция <span>🏛️</span></h2>
+            <nav>
+                <ul>
+                    <li><button class="nav-btn active" data-page="intro">Введение</button></li>
+                    <li><button class="nav-btn" data-page="olympians">Олимпийские Боги</button></li>
+                    <li><button class="nav-btn" data-page="titans">Титаны и Первобоги</button></li>
+                    <li><button class="nav-btn" data-page="labors">12 Подвигов Геракла</button></li>
+                    <li><button class="nav-btn" data-page="monsters">Бестиарий</button></li>
+                </ul>
+            </nav>
+        </aside>
 
-    <div id="content-area">
-        </div>
-
-    <footer>
-        <p>&copy; 2026 Мифологический Справочник</p>
-    </footer>
-
+        <main class="content">
+            <div id="app">
+                </div>
+        </main>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
